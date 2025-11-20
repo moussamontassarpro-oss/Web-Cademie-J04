@@ -1,5 +1,0 @@
-<?php
-
-$person = [
-     name => "Patrick"
-]
