@@ -1,0 +1,5 @@
+<?php
+
+$person = [
+     name => "Patrick"
+]
