@@ -1,9 +1,13 @@
 <?php
 
+    $person = [
 
-    $id = array("surname" => "Dupont", "name" => "Sophie", "age" => 27);
+        "surname" => "Dupont",
+        "name" => "Sophie",
+        "age" => "27",
+    ];
 
-   foreach ($id as $key => $value) {
+    foreach ($person as $nom => $chiffres){
 
-       echo $key . " cc " . $value . "\n"; 
-   }
+        echo $nom . " : " . $chiffres . "\n";
+    }
