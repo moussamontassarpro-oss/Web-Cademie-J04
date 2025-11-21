@@ -7,7 +7,7 @@
         "age" => "27",
     ];
 
-    foreach ($person as $nom => $chiffres){
+    foreach ($person as $key => $value){
 
-        echo $nom . " : " . $chiffres . "\n";
+        echo $key . " : " . $value . "\n";
     }
